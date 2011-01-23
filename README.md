@@ -21,6 +21,18 @@ Last thing you have to do is inserting your adress and changing your map setting
 For more informations about installation of 3rd party Dolphin 7 modules, visit ["How to install 3rd party Dolphin 7 Modules"](http://www.boonex.com/trac/dolphin/wiki/TutorialHowToInstallThirdPartyDolphinModules)
 
 
+
+Languages included
+---
+
+* English
+* German
+
+
+Send me pull request, if you did a translation!
+
+
+
 License
 ---
 

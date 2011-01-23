@@ -18,6 +18,8 @@ The new page should be placed in the top menu of your site. You can re-arrange i
 Last thing you have to do is inserting your adress and changing your map settings. Settings can be done inside "Module" > "Directions".
 
 
+For more informations about installation of 3rd party Dolphin 7 modules, visit ["How to install 3rd party Dolphin 7 Modules"](http://www.boonex.com/trac/dolphin/wiki/TutorialHowToInstallThirdPartyDolphinModules)
+
 
 License
 ---

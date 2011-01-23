@@ -1,0 +1,40 @@
+<script language="javascript">
+    $(document).ready(function() {
+        
+        var pos = new google.maps.LatLng(__lat__, __lng__);
+        
+        var map = new google.maps.Map(document.getElementById('map_canvas'), {
+            zoom: __map_zoom__,
+            center: pos,
+            mapTypeId: google.maps.MapTypeId.__map_type__
+        });
+        
+        var marker = new google.maps.Marker({
+            position: pos, 
+            map: map, 
+            title: '__marker_title__'
+        });
+        
+        <bx_if:adress>
+        var infowindow = new google.maps.InfoWindow({  
+            content: '<div style="width: 250px; max-height:250px; overflow-y: auto;">__adress__</div>',
+            maxWidth: 250
+        });
+        infowindow.open(map, marker);
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map, marker);
+        });
+        </bx_if:adress>
+    });
+</script>
+<div>
+    <bx_if:header>
+    <div style="margin-bottom: 10px;">__header__</div>
+    </bx_if:header>
+    
+    <div id="map_canvas" style="width: 100%; height: __map_height__px;"></div>
+    
+    <bx_if:footer>
+    <div style="margin-top: 10px;">__footer__</div>
+    </bx_if:footer>
+</div>

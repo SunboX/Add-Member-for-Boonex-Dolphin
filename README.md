@@ -1,4 +1,4 @@
-Google Maps Directions for Boonex Dolphin
+Add Member module for Boonex Dolphin
 ===
 
 Add Member module for Boonex Dolphin version 7.0.x. With the Add Member module you can add new members directly inside your administration area.

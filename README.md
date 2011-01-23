@@ -4,7 +4,7 @@ Google Maps Directions for Boonex Dolphin
 Directions Page module for Boonex Dolphin version 7.0.x using Google Maps.
 
 It´s realesed under the MIT-style license. So feel free to copy it, modify it, do what you want with it. ;o)
-And have some fun! Enhancements and bug reports are welcome. If you like it, send me a link to your page.
+And have some fun! Enhancements and bug reports are welcome. If you like it, send me a link to your site.
 
 
 
